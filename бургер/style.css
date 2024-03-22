@@ -1,0 +1,156 @@
+
+
+.d-flex{
+    margin-left: 200px;
+}
+
+.carousel{
+   flex-wrap: wrap; 
+} 
+
+
+#block-left{
+    
+    height: 200px;
+}
+#content{
+
+height: 150px;
+}
+#glav{
+    
+
+}
+.rov{
+    display: flex;
+     gap: 20px;
+   
+}
+.rov img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+.div4{
+   
+    display: flex;
+    height: 500px;
+    text-align: center;
+    word-wrap: wrap;
+    align-items: center;
+    margin-top: 400px;
+    
+
+}
+.bur8 img{
+width: 100%;
+height: 500px;
+margin-left: 200px;
+
+}
+.bu{
+    width: 50%;
+    height: 500px;
+    margin-top: 150px;
+}
+.chup{
+    height: 200px;
+    flex-wrap: wrap;
+}
+.chup img{
+    width: 100%;
+    height: 300px;
+}
+.text{
+    text-align: center;
+    margin-top: 100px;
+    
+    
+}
+
+.bl{
+     display: flex;
+    margin-top: 200px;
+    flex-wrap: wrap;
+justify-content: space-between;
+height: 400px;
+
+
+
+
+
+    
+
+   
+    
+}
+.card{
+    margin-bottom: 50px;
+    padding: 20px;
+    
+}
+
+.details-wrapper{
+    display: flex;
+    background:;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    
+    
+
+    
+}
+
+.items{
+    display: flex;
+    border-radius: 10%;
+    gap: 20px;
+  
+  border: 1px solid orange;
+
+}
+.items__control:hover{
+   background: orange; 
+}
+.items__control{
+padding: 10px;
+border-radius: 10%;
+}
+.items__current{
+    padding: 10px;
+    border-radius: 10%;  
+}
+.div6{
+    height: 600px;
+    background:#4a4e51;
+    color: white;
+    width: 100%;
+    text-align: center;
+   
+}
+.div{ gap: 10px;
+    border-bottom: 1px solid black;
+}
+@media  screen and (max-width: 600px){
+
+.div4{
+ border: 1px solid black;
+ position: relative;
+ margin-top: 200px;
+
+}
+.bu{
+text-align: center;
+margin-top: 90px;
+}
+.bur8 img{
+    width: 80%;
+    height: 250px;
+    margin-left: 100px;
+   
+    
+}
+
+
+}
